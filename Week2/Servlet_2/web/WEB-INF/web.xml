@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <welcome-file-list>
+        <welcome-file>registration.jsp</welcome-file>
+    </welcome-file-list>
+
+<!--   <servlet>-->
+<!--       <servlet-name>LogIn</servlet-name>-->
+<!--       <servlet-class>LogIn</servlet-class>-->
+<!--   </servlet>-->
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>LogIn</servlet-name>-->
+<!--        <url-pattern>/1</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+        <servlet>
+            <servlet-name>Register</servlet-name>
+            <servlet-class>Register</servlet-class>
+        </servlet>
+
+        <servlet-mapping>
+            <servlet-name>Register</servlet-name>
+            <url-pattern>/register</url-pattern>
+        </servlet-mapping>
+
+                <servlet>
+                    <servlet-name>Outputs</servlet-name>
+                    <servlet-class>Outputs</servlet-class>
+                </servlet>
+
+                <servlet-mapping>
+                    <servlet-name>Outputs</servlet-name>
+                    <url-pattern>/outputs</url-pattern>
+                </servlet-mapping>
+
+
+
+
+</web-app>
