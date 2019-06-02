@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Spring Core Online Tutorial - Product Form</title>
+    <title>Product form</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 
     <link href="http://cdn.jsdelivr.net/webjars/bootstrap/3.3.4/css/bootstrap.min.css"
@@ -26,8 +26,6 @@
             </div>
 
             <input type="hidden" th:field="*{id}"/>
-
-            <h1>Hello Git testing 123 123  product form </h1>
 
             <div class="form-group" th:class="${#fields.hasErrors('description')} ? 'form-group has-error' : 'form-group'">
                 <label class="col-sm-2 control-label">Description:</label>

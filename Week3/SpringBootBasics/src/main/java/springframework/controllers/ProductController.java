@@ -1,6 +1,5 @@
 package springframework.controllers;
 
-
 import springframework.commands.ProductForm;
 import springframework.converters.ProductToProductForm;
 import springframework.domain.Product;
@@ -14,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.validation.Valid;
-
 
 @Controller
 public class ProductController {
