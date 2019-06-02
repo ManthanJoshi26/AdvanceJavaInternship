@@ -1,14 +1,12 @@
-package guru.springframework.converters;
+package springframework.converters;
 
-import guru.springframework.commands.ProductForm;
-import guru.springframework.domain.Product;
+import springframework.commands.ProductForm;
+import springframework.domain.Product;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
-/**
- * Created by jt on 1/10/17.
- */
+
 
 
 @Component
